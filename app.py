@@ -1,7 +1,7 @@
 from shiny import App, render, ui
 
 app_ui = ui.page_fluid(
-    ui.panel_title("Hello Shiny!"),
+    ui.panel_title("Hello, my name is Ziska!"),
     ui.input_slider("slider_example", "N", 0, 100, 20),
     ui.output_text_verbatim("results"),
 )
